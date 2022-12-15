@@ -20,13 +20,13 @@ Develop the `shortest()` function, which can take an unlimited number of argumen
 
 ### Check
 
-`shortest “This” “is” “Bash” “Functions” “Task”`
+`shortest "This" "is" "Bash" "Functions" "Task"`
 
 `is`
 
 If there are more than two arguments, output each string on a new line. In an order they are passed to function.
 
-`shortest “Java” “Bash” “Python”`
+`shortest "Java" "Bash" "Python"`
 
 `Java`
 
