@@ -1,11 +1,8 @@
 #!/bin/bash
 
-# Defining a timestamp function
+# get power of a to b
+pow() {
+echo $(($1**$2))
+}
 
-print_log() {
-        local txt=$@ 
-        echo "[$(date +%F-%R)] $@"
- }
-
-print_log $@
 
